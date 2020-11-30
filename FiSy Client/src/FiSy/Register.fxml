@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" prefHeight="413.0" prefWidth="300.0" style="-fx-background-color: #1E1E20;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FiSy.Register">
+   <children>
+      <TextField fx:id="loginField" layoutX="50.0" layoutY="30.0" prefWidth="200.0" promptText="Логин (4-32)" />
+      <PasswordField fx:id="passwordField" layoutX="50.0" layoutY="80.0" prefWidth="200.0" promptText="Пароль (8-64)" />
+      <PasswordField fx:id="passwordField2" layoutX="50.0" layoutY="115.0" prefWidth="200.0" promptText="Повторите пароль (8-64)" />
+      <TextField fx:id="nameField" layoutX="50.0" layoutY="173.0" prefWidth="200.0" promptText="Имя (2-32)" />
+      <TextField fx:id="surnameField" layoutX="50.0" layoutY="223.0" prefWidth="200.0" promptText="Фамилия (2-32)" />
+      <TextField fx:id="middlenameField" layoutX="50.0" layoutY="273.0" prefHeight="27.0" prefWidth="200.0" promptText="Отчество (необязательно)" />
+      <TextField fx:id="groupField" layoutX="50.0" layoutY="323.0" prefWidth="200.0" promptText="Группа (необязательно)" />
+      <Button id="addbutton" fx:id="registerButton" alignment="CENTER_RIGHT" disable="true" layoutX="56.0" layoutY="365.0" mnemonicParsing="false" onAction="#toRegister" opacity="0.5" prefHeight="34.0" prefWidth="178.0" stylesheets="@style/style.css" text="Зарегистрироваться" textFill="#d9cb9e" />
+      <Label layoutX="126.0" layoutY="14.0" text="Логин" textFill="#d9cb9e" />
+      <Label layoutX="121.0" layoutY="63.0" text="Пароль" textFill="#d9cb9e" />
+      <Label layoutX="131.0" layoutY="156.0" text="Имя" textFill="#d9cb9e" />
+      <Label layoutX="116.0" layoutY="207.0" text="Фамилия" textFill="#d9cb9e" />
+      <Label layoutX="114.0" layoutY="256.0" text="Отчество" textFill="#d9cb9e" />
+      <Label layoutX="121.0" layoutY="306.0" text="Группа" textFill="#d9cb9e" />
+   </children>
+</Pane>

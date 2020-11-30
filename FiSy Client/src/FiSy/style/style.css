@@ -1,0 +1,215 @@
+#rightbutton  {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('right_arrow.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center 8px;
+
+
+}
+
+#reloadbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('Reload.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: left 8px;
+
+}
+
+#loginbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('login.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: left 8px;
+}
+
+#backbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('back.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: left 2px top 2px;
+}
+
+#folderBackButton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('backFolder.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#folderDownloadButton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('downloadFiles.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#okbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('ok.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#morebutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('3points.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#morebutton2 {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('more.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#upbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('uparrow.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#deleteButton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('deleteButton.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center;
+}
+
+#nextbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('right_arrow.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: right 2px;
+
+    -fx-alignment: LEFT;
+}
+#addbutton {
+
+    -fx-background-color: transparent;
+
+    -fx-background-image: url('add.png');
+
+    -fx-background-size: 30px 30px;
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: left 2px top 2px;
+
+    -fx-alignment: LEFT;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+    -fx-stroke: transparent;
+    -fx-size:30;
+    -fx-alignment: CENTER ;
+    -fx-text-alignment: center;
+
+}
+.table-row-cell:filled:hover {
+
+    -fx-size:30;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+
+
+}
+.table-view:row-selection {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-fixed-cell-size: 30;
+    -fx-alignment: CENTER;
+    -fx-text-alignment: center;
+
+}
+
+.table-view .table-column{
+    -fx-text-alignment: center;
+    -fx-alignment: CENTER
+
+}
+
+
+
+.progress-bar > .bar {
+    -fx-background-color: grey;
+    -fx-background-insets: 30, 30, 30, 30;
+    -fx-background-radius: 4, 4, 4, 4;
+}

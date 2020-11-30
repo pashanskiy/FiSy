@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FiSy Client:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FiSy_Client_jar</output-path>
+    <root id="archive" name="FiSy Client.jar">
+      <element id="module-output" name="FiSy Client" />
+    </root>
+  </artifact>
+</component>
